@@ -1,0 +1,64 @@
+@media ( max-width: 1199px )
+    ._container
+        max-width: 860px
+    ._screenshot
+        max-width: 680px
+    .title
+        margin: 0 10px
+
+@media ( max-width: 991px )
+    ._container, 
+        max-width: 740px
+    ._screenshot
+        max-width: 540px
+    .title
+        flex-direction: column-reverse
+        justify-content: center
+        div
+            margin: 0 auto 
+            h1
+                text-align: center
+        &__description
+            text-align: center
+    .footer
+        &__content
+            max-width: 750px
+    .contacts        
+        &__title
+            text-align: center
+        &__items
+            flex-direction: column
+            align-items: center
+            line-height: 14px
+        &__item
+            margin: 0 0 10px 0
+
+@media ( max-width: 767px )    
+    ._container
+        max-width: 540px
+    .footer
+        &__content
+            max-width: 750px
+    ._screenshot
+        max-width: 350px
+    .title
+        margin: 0
+        &__text     
+            width: 90%
+
+@media ( max-width: 575px )    
+    .line
+        width: 150px
+    .title
+        &__screenshot
+            width: 250px
+    ._container
+        max-width: 250px
+    .footer
+        &__content
+            max-width: 750px
+    ._screenshot
+        max-width: 200px
+    .corporate-search__main-header
+        font-size: 36px
+    
